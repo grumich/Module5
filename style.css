@@ -10,6 +10,7 @@ header{
     background-color: aqua;
     background-image: url(img/news.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 header h1{
     margin-top: 290px;
@@ -37,4 +38,37 @@ text-transform: uppercase;
 .copyright{
 color: rgb(108, 117, 125);
 font-family: 'Times New Roman', Times, serif;
+}
+.news{
+background-color: #fff;
+padding: 50px 0 32px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+article{
+/* width: 768px;
+margin: 0 auto 32px; */
+padding: 6px 15px;
+border-bottom: 1px solid rgb(128, 128, 128);
+}
+article a{
+color: rgb(33, 35, 41);
+text-decoration: none;
+}
+article a:hover{
+    color: #0085a1;
+}
+article h2{
+font-family: 'segoe UI', tahoma, Geneva, verdana, sans-serif;
+margin-bottom: 5px;
+}
+.article-meta{
+color:rgb(134, 142, 150);
+margin-bottom: 5px;
+}
+.article img{
+width: 100%;
+height: 300px;
+object-fit: cover;
 }
